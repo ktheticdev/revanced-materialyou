@@ -9,7 +9,7 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "both"
 excluded-patches = ""
-included-patches = ""
+included-patches = "materialyou"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -18,6 +18,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 [Music]
 build-mode = "both"
 arch = "both"
+included-patches = "materialyou"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -31,8 +32,9 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 # dont build on gh actions (https://github.com/j-hc/revanced-magisk-module/issues/554)
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
+included-patches = "materialyou"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
@@ -42,8 +44,9 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
-enabled = false
+enabled = true
 app-name = "YouTube"
+included-patches = "materialyou"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
