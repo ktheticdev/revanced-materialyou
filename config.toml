@@ -14,7 +14,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "inotia00 ReVanced"
-included-patches = "'MaterialYou' 'Custom brainding icon for YouTube'"
+included-patches = "'MaterialYou' 'Custom branding icon for YouTube'"
 patcher-args = "-OappIcon=MMT"
 
 [Music]
