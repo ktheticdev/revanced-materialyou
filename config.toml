@@ -19,6 +19,7 @@ patcher-args = "-OappIcon=mmt "
 
 [Music]
 build-mode = "both"
+version = "8.05.51"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
